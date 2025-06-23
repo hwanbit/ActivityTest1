@@ -20,13 +20,40 @@
         android:layout_marginTop="30dp"/>
 
     <Button
-        android:id="@+id/btn_main"
+        android:id="@+id/btn_second"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
         android:text="새 화면 열기"
+        android:backgroundTint="#9DC9D5"
+        android:textColor="@color/black"/>
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <RadioButton
+        android:id="@+id/rb_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="두번째 화면 열기"
         android:backgroundTint="#9ECDE6"
         android:textColor="@color/black"/>
+
+    <RadioButton
+        android:id="@+id/rb_third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="세번째 화면 열기"
+        android:backgroundTint="#9ECDE6"
+        android:textColor="@color/black"/>
+
+    </RadioGroup>
 
 </LinearLayout>
